@@ -1,0 +1,1 @@
+Boiler plate from git clone https://github.com/christopher4lis/canvas-boilerplate.git
