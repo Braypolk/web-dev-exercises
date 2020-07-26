@@ -27,7 +27,7 @@ class Star {
       y: 3
     }
     this.friction = 0.8
-    this.gravity = 1
+    this.gravity = 1.5
   }
 
   draw() {

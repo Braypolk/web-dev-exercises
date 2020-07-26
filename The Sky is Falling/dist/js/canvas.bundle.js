@@ -128,7 +128,7 @@ var Star = /*#__PURE__*/function () {
       y: 3
     };
     this.friction = 0.8;
-    this.gravity = 1;
+    this.gravity = 1.5;
   }
 
   _createClass(Star, [{

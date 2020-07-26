@@ -14,16 +14,19 @@ darkMode.addEventListener('click', () => {
     timeline.add({
         targets: ".sun",
         d: [
-            {value: moonPath}
+            {value: toggle ? sunPath : moonPath}
         ]
     })
     .add({
         targets: "#darkMode",
-        rotate: 320
+        rotate: toggle ? 0 : 320
     }, "-=300")
     .add({
         targets: "section",
-        backgroundColor: "rgb(33,33,33)"
+        backgroundColor: toggle ? "rgb(199,199,199)" : "rgb(33,33,33)",
+        color: toggle ? "rgb(0,0,0)" : "rgb(220,220,220)"
     }, "-=700")
+
+    toggle = !toggle
 });
 
